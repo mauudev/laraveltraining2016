@@ -31,4 +31,5 @@ Route::post('/prueba',function(){
 	return view('testpost');
 });
 
+Route::resource('/estudiante','MiControlador');
 
